@@ -3,8 +3,9 @@
 ## Inhaltsverzeichnis
 
 [Vorwort](#1)
-
 [Der Arduino](#2)
+  [Der Sketch](#3)
+[Projektentwicklung](#4)
 
 ### <a name="1"></a>Vorwort
 
@@ -15,7 +16,7 @@ Vor dem Informatikunterricht hatten wir beide keine Vorkenntnisse. Deshalb waren
 Ein Arduino ist eine Physical-Computung-Plattform, die aus Soft- und Hardware zusammengesetzt ist. Hierzu benötigt man das Arduino-Programm auf dem Computer für die Software und einen Microcontroller für die Hardware. In der Software schreibt man einen sogenannten "Sketch", den man anschließend auf den Mikrocontroller übertragen kann. An den Mikrocontroller kann man verschiedene Geräte wie Sensoren, LEDs oder Servos anschließen und per Sketch auslesen bzw. steuern. Die Stromversorgung liefert der Computer oder man schließt einen Akku an. Um mehrere angeschlossene Geräte gleichzeitig mit Strom und Daten zu versorgen bzw. auszulesen, nutzt man ein sogenanntes "Breadbord", über das man die 5V des Microcontrollers an die Geräte weiterverteilen kann.   
 ![Arduino_Mikrocontroller und Breadboard](https://github.com/dennis602/Projektseite/blob/master/Arduino%20Bild%20Internet.jpg)
 
-### Der Sketch
+### <a name="3"></a<Der Sketch
 
 Die zwei Bestandteile eines Sketches sind das "void setup()" und das "void loop()". Im Setup werden alle Ausgangsbedingungen definiert, wie zum Beispiel, welche Geräte benutzt werden und an welchen Pins auf dem Mikrocontroller diese angeschlossen sind. 
 Beispiel: 
@@ -24,7 +25,7 @@ Beispiel:
 
 Dies war unser erster Sketch, der eine LED am Pin 13 zum blinken bringt. Das "delay(...)" bestimmt die Zeit, die die LED "HIGH" (also an) oder "LOW" (also aus) ist.
  
-## Projektentwicklung
+### <a name="4"></a<Projektentwicklung
 
 
 
