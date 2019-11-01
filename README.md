@@ -3,8 +3,11 @@
 ## Inhaltsverzeichnis
 
 [Vorwort](#1)
+
 [Der Arduino](#2)
+
   [Der Sketch](#3)
+  
 [Projektentwicklung](#4)
 
 ### <a name="1"></a>Vorwort
