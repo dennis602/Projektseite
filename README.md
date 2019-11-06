@@ -33,9 +33,13 @@ Dies war unser erster Sketch, der eine LED am Pin 13 zum blinken bringt. Das "de
 ### <a name="4"></a>Projektentwicklung
 
 Wir haben unser Projekt damit begonnen, im Internet grundlegende erste Schritte im Umgang mit dem Arduino zu recherchieren. Sobald wir diese verinnerlicht hatten, haben wir uns komplexeren Sachverhalten gewidmet. Diese Vorgehensweise hat unsere gesamte Arbeitsweise bestimmt. Schritt für Schritt von Einfach zu Schwer. Wir haben also damit begonnen, einfache LEDs zum leuchten zu bringen, Servos zu steuern oder Sensoren einzusetzten. Anschließend ging es darum, all diese Schritte zu verknüpfen.
+
 Dieses Verknüpfen lief natürlich nicht problemlos ab, sodass die zentrale Herausforderung das Lösen dieser Probleme war. Mit jeder dieser Lösungen wuchs auch unser allgemeines Verständnis für das Programm Arduino. Wir haben gelernt, einzelne Abschnitte des Sketches genauer auf die Funktionalität zu untersuchen, indem wir einzelne Zeilen deaktiviert haben. Sehr geholfen hat uns auch der "Serial Print" als Möglichkeit, den aktuellen Status des ablaufenden Sketches nachzuvollziehen.
+
 Da wir die einzelnen Anleitungen der Schritte im Internet recherchiert haben (Quellen s. Protokoll), lag unsere Eigenleistung darin, all diese kleinen Skechte zu einem großen zu verbinden. Ziel war von Anfang an das Parkhaus und jeder Fortschritt, den wir erzielt haben, brachte uns diesem Ziel näher. 
 
+Angefangen haben wir mit einem einfachen Sketch, um einen Servo zu bewegen. Den Sketch haben wir uns aus dem Internet kopiert und mit der dazugehörigen Hardware aus dem Unterricht haben wir alles ausprobiert. Wenn dann alles so funktioniert hat, wie wir wollten und wir auch den Sketch verstanden hatten, ging es weiter. Nun haben wir uns mit einem Bewegungsmelder auseinandergestzt. Den einfachen Sketch haben wir kopiert, dann die Hardware zusammengebaut und ausprobiert. Sobald alles funktioniert hat und wir den Sketch verstanden hatten, haben wir diesen eigenständig mit dem Servosketch verbunden. Nachdem das funktioniert hat, konnten wir einen Servo durch Bewegung steuern. Dann haben wir uns mit Ultraschzallsensoren auseinandergesetzt. Einen ursprünglichen Sketch haben wir kopiert, die eine vereinfachte Hardware mit LEDs zur Kontrolle zusammengebaut und alles ausprobiert. Sobald alles funktioniert hat und wir den Sketch verstanden hatte, haben wir diesen Sketch eigenständig in den Bewegungsmelder-Servo-Sketch eingefügt. Nun konnten wir einen Servo durch Bewegung steuern, aber nur wenn nichts den Ultraschallsensor blockiert.
+(Quellen)
 
 ### <a name="5"></a>Unser Projekt
 
