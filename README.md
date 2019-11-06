@@ -10,6 +10,8 @@
   
 [Projektentwicklung](#4)
 
+[Unser Projekt](#5)
+
 ### <a name="1"></a>Vorwort
 
 Vor dem Informatikunterricht hatten wir beide keine Vorkenntnisse. Deshalb waren wir gespannt was auf uns zukommt. Als es dann darum ging, eine Projektidee zu finden und wir uns einen Überblick über alle Möglichkeiten verschafft hatten, entschieden wir uns für ein praktisches Projekt. Das Programmieren an etwas Praktischem zu erlernen erschien uns sehr sinnvoll. Somit kam für uns der sehr anfängerfreundliche Arduino in Frage. Da es im Internet sehr viele fertige Projekte inklusive Anleitungen gibt, wir aber ein eigenständiges und neues Projekt umsetzten wollten, mussten wir uns erst einmal etwas eigenes ausdenken. Relativ schnell kamen wir auf die Ideen ein Parkhaus zu bauen, dessen Schranke nur so lange aufgeht, wie Parkplätze frei sind. Ein großer Vorteil daran war, dass wir das große Projekt aus mehreren kleineren aufbauen konnten. So ist es möglich, auf funktionierenden Zwischenschritten aufzubauen. Wenn ein kleinerer Schritt nicht funktioniert, ist nicht gleich das ganze Projekt gescheitert. Dieses Prinzip war die Grundlage unserer gesamten Arbeit.
@@ -29,6 +31,13 @@ Beispiel:
 Dies war unser erster Sketch, der eine LED am Pin 13 zum blinken bringt. Das "delay(...)" bestimmt die Zeit, die die LED "HIGH" (also an) oder "LOW" (also aus) ist.
  
 ### <a name="4"></a>Projektentwicklung
+
+Wir haben unser Projekt damit begonnen, im Internet grundlegende erste Schritte im Umgang mit dem Arduino zu recherchieren. Sobald wir diese verinnerlicht hatten, haben wir uns komplexeren Sachverhalten gewidmet. Diese Vorgehensweise hat unsere gesamte Arbeitsweise bestimmt. Schritt für Schritt von Einfach zu Schwer. Wir haben also damit begonnen, einfache LEDs zum leuchten zu bringen, Servos zu steuern oder Sensoren einzusetzten. Anschließend ging es darum, all diese Schritte zu verknüpfen.
+Dieses Verknüpfen lief natürlich nicht problemlos ab, sodass die zentrale Herausforderung das Lösen dieser Probleme war. Mit jeder dieser Lösungen wuchs auch unser allgemeines Verständnis für das Programm Arduino. Wir haben gelernt, einzelne Abschnitte des Sketches genauer auf die Funktionalität zu untersuchen, indem wir einzelne Zeilen deaktiviert haben. Sehr geholfen hat uns auch der "Serial Print" als Möglichkeit, den aktuellen Status des ablaufenden Sketches nachzuvollziehen.
+Da wir die einzelnen Anleitungen der Schritte im Internet recherchiert haben (Quellen s. Protokoll), lag unsere Eigenleistung darin, all diese kleinen Skechte zu einem großen zu verbinden. Ziel war von Anfang an das Parkhaus und jeder Fortschritt, den wir erzielt haben, brachte uns diesem Ziel näher. 
+
+
+### <a name="5"></a>Unser Projekt
 
 
 
