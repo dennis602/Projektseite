@@ -12,6 +12,8 @@
 
 [Unser Projekt](#5)
 
+[Unsere Hardware](#6)
+
 ### <a name="1"></a>Vorwort
 
 Vor dem Informatikunterricht hatten wir beide keine Vorkenntnisse. Deshalb waren wir gespannt was auf uns zukommt. Als es dann darum ging, eine Projektidee zu finden und wir uns einen Überblick über alle Möglichkeiten verschafft hatten, entschieden wir uns für ein praktisches Projekt. Das Programmieren an etwas Praktischem zu erlernen erschien uns sehr sinnvoll. Somit kam für uns der sehr anfängerfreundliche Arduino in Frage. Da es im Internet sehr viele fertige Projekte inklusive Anleitungen gibt, wir aber ein eigenständiges und neues Projekt umsetzten wollten, mussten wir uns erst einmal etwas eigenes ausdenken. Relativ schnell kamen wir auf die Ideen ein Parkhaus zu bauen, dessen Schranke nur so lange aufgeht, wie Parkplätze frei sind. Ein großer Vorteil daran war, dass wir das große Projekt aus mehreren kleineren aufbauen konnten. So ist es möglich, auf funktionierenden Zwischenschritten aufzubauen. Wenn ein kleinerer Schritt nicht funktioniert, ist nicht gleich das ganze Projekt gescheitert. Dieses Prinzip war die Grundlage unserer gesamten Arbeit.
@@ -40,7 +42,7 @@ Da wir die einzelnen Anleitungen der Schritte im Internet recherchiert haben (Qu
 
 Angefangen haben wir mit einem einfachen Sketch, um einen Servo zu bewegen. Den Sketch haben wir uns aus dem Internet kopiert und mit der dazugehörigen Hardware aus dem Unterricht haben wir alles ausprobiert. Wenn dann alles so funktioniert hat, wie wir wollten und wir auch den Sketch verstanden hatten, ging es weiter. Nun haben wir uns mit einem Bewegungsmelder auseinandergestzt. Den einfachen Sketch haben wir kopiert, dann die Hardware zusammengebaut und ausprobiert. Sobald alles funktioniert hat und wir den Sketch verstanden hatten, haben wir diesen eigenständig mit dem Servosketch verbunden. Nachdem das funktioniert hat, konnten wir einen Servo durch Bewegung steuern. Dann haben wir uns mit Ultraschzallsensoren auseinandergesetzt. Einen ursprünglichen Sketch haben wir kopiert, die eine vereinfachte Hardware mit LEDs zur Kontrolle zusammengebaut und alles ausprobiert. Sobald alles funktioniert hat und wir den Sketch verstanden hatte, haben wir diesen Sketch eigenständig in den Bewegungsmelder-Servo-Sketch eingefügt. Nun konnten wir einen Servo durch Bewegung steuern, aber nur wenn nichts den Ultraschallsensor blockiert.
 
-### Quellen:
+## Quellen:
 
 https://funduino.de/anleitung#1Vorwort_zur_Arduino_Anleitung
 
@@ -56,8 +58,10 @@ https://www.mymakerstuff.de/2016/05/24/arduino-tutorial-der-ultraschallsensor/
 
 ### <a name="5"></a>Unser Projekt
 
+Wir haben nun also ein Parkhaus entwickelt, das auf Bewegung seine Schranke öffnet. Ist jedoch der Parkplatz besetzt, öffnet sich die Schranke nicht. Ob sie sich bei Bewegung öffnen wird oder nicht, erkennt man an einer rot bzw. grün leuchtenden LED.
 
 
+## <a name="6"></a>Unsere Hardware
 
 
 
