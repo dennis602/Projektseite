@@ -71,6 +71,14 @@ Hier sieht man unsere Hardware vor dem Einbau in das Parkhaus.
 
 1. Mikrocontroller: Er ist das Herzstück von Arduino, da er Software mit Hardware verbindet. Auf ihn wird der Sketch geladen und an ihn angeschlossen sind alle externen Geräte. Siehe [Der Arduino](#2)
 
+2. Breadboard: Es bildet eine Erweiterung für den Mikrocontroller, da es für uns die Möglicheit bietet alle anderen Geräte mit Strom zu versorgen, obwohl der Mikrocontroller nur einen 5V Anschluss hat. Dazu verbindet man einfach den 5V Anschluss mit der Plus-Leiste des Breadboards und die Minus-Leiste mit GND (Groundpin am Mikrocontroller). Anschließend konnten wir alle weiteren Geräte an diese beiden Leisten anschließen und mit Strom versorgen.
+
+3. Verbindungskabel mit USB-Anschluss: Dieses verbindet den Mikrocontroller mit dem Computer und somit mit dem Arduino-Programm. Es ermöglicht also das Übertragen des Sketches. Außerdem wird über diesen Anschluss die Stromversorgung gewährleistet.
+
+4. Servo: An dieser Stelle wird ein Servo angeschlossen (Servo ist noch nicht verfügbar). Der Servo öffnet und schließt die Schranke. Vom Servo gehen drei Kabel ab: Das rote Kabel geht an die Plus-Leiste vom Breadboard und versorgt so den Servo mit Strom. Das braune Kabel schließt den Stromkreis, indem es zur Minus-Leiste des Breadboards führt. Das gelbe Kabel sorgt für die Datenversorgung des Servos, indem es zu einem digitalen Pin am Mikrocontroller führt. So weiß der Servo, wann er die Schranke öffnen und schließen soll.
+
+5. Bewegungssensor: Er registriert Bewegungen und sendet daraufhin ein Signal. In unserem Fall sendet er auf BEwegung ein Signal an den Servo, sich zu öffnen.
+
 
 
 ## Quellen
