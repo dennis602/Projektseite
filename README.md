@@ -63,7 +63,13 @@ Wir haben nun also ein Parkhaus entwickelt, das auf Bewegung seine Schranke öff
 
 ### <a name="6"></a>Unsere Hardware
 
+Hier sieht man unsere Hardware vor dem Einbau in das Parkhaus.
 
+![Aufbau mit Nummern](https://github.com/dennis602/Projektseite/blob/master/Aufbau_fertig_nummern.PNG?raw=true)
+
+#### Erläuterungen:
+
+1. Mikrocontroller: Er ist das Herzstück von Arduino, da er Software mit Hardware verbindet. Auf ihn wird der Sketch geladen und an ihn angeschlossen sind alle externen Geräte. Siehe [Der Arduino](#2)
 
 
 
