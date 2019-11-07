@@ -77,7 +77,7 @@ Hier sieht man unsere Hardware vor dem Einbau in das Parkhaus.
 
 4. Servo: An dieser Stelle wird ein Servo angeschlossen (Servo ist noch nicht verfügbar). Der Servo öffnet und schließt die Schranke. Vom Servo gehen drei Kabel ab: Das rote Kabel geht an die Plus-Leiste vom Breadboard und versorgt so den Servo mit Strom. Das braune Kabel schließt den Stromkreis, indem es zur Minus-Leiste des Breadboards führt. Das gelbe Kabel sorgt für die Datenversorgung des Servos, indem es zu einem digitalen Pin am Mikrocontroller führt. So weiß der Servo, wann er die Schranke öffnen und schließen soll.
 
-5. Bewegungssensor: Er registriert Bewegungen und sendet daraufhin ein Signal. In unserem Fall sendet er auf BEwegung ein Signal an den Servo, sich zu öffnen.
+5. Bewegungssensor: Er registriert Bewegungen und sendet daraufhin ein Signal. In unserem Fall sendet er auf Bewegung ein Signal an den Servo, sich zu öffnen.
 
 
 
