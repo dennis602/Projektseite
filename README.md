@@ -79,7 +79,11 @@ Hier sieht man unsere Hardware vor dem Einbau in das Parkhaus.
 
 5. Bewegungssensor: Er registriert Bewegungen und sendet daraufhin ein Signal. In unserem Fall sendet er auf Bewegung ein Signal an den Servo, sich zu öffnen.
 
+### Kritik/Aussicht
 
+Um ein "richtiges" Parkhaus zu bauen, müsste man natürlich noch weitere Parkplätze hinzufügen. Das würde heißen, dass wir noch mehr Ultraschallsensoren bräuchten und den Sketch folgendermaßen verändern: Der Servo dürfte sich erst dann nicht mehr bewegen, wenn wirklich alle Ultraschallsensoren eine Entfernung von unter 3 cm messen. 
+
+Außerdem könnte man den Bewegungsmelder auch durch einen Ultraschallsensor ersetzten, um eine präzisere Öffnung der Schranke zu ermöglichen. Der Bewegungssensor ist relativ sensibel was Bewegungen angeht, sodass es leicht passiert, dass sich die Schranke ungewollt öffnet. Das könnte man mit einem Ultraschallsensor möglicherweise verhindern.
 
 ## Quellen
 https://asset.conrad.com/media10/isa/160267/c1/-/de/616724_GB_00_FB/set-arduino-uno-platine-usb-2-0-anschlusskabel-steckplatine-616724.jpg
