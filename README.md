@@ -111,7 +111,7 @@ Nun wird der Bewegungsstatus ausgelesen. Dann haben wir eine weitere if-Bedingun
 
 ![Loop if(distance>5) - Schranke geschlossen](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Loop%20if(distance%20%C3%BCber%205)%20Schranke%20zu.PNG?raw=true)
 
-Mit dem folgenden "else" wird bestimmt, was passieren soll, wenn keine Bewegung wahrgenommen wird, also sozusagen "Bewegungsstatus = LOW". Dann soll nämlich nichts passieren, also bleibt der Servo bei 0 Grad. Die LEDs leuchten weiter wie bisher und der Serial Print meldet den Status "Schranke unten". 
+Mit dem folgenden "else" wird bestimmt, was passieren soll, wenn keine Bewegung wahrgenommen wird, also sozusagen "Bewegungsstatus = LOW". Dann soll nämlich nichts passieren, also bleibt der Servo bei 0 Grad. Der Serial Print meldet den Status "Schranke unten" und die LEDs leuchten weiter wie bisher. 
 
 
 ### Kritik/Aussicht
