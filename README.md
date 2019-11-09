@@ -14,6 +14,8 @@
 
 [Unsere Hardware](#6)
 
+[Unsere Software](#7)
+
 ### <a name="1"></a>Vorwort
 
 Vor dem Informatikunterricht hatten wir beide keine Vorkenntnisse. Deshalb waren wir gespannt was auf uns zukommt. Als es dann darum ging, eine Projektidee zu finden und wir uns einen Überblick über alle Möglichkeiten verschafft hatten, entschieden wir uns für ein praktisches Projekt. Das Programmieren an etwas Praktischem zu erlernen erschien uns sehr sinnvoll. Somit kam für uns der sehr anfängerfreundliche Arduino in Frage. Da es im Internet sehr viele fertige Projekte inklusive Anleitungen gibt, wir aber ein eigenständiges und neues Projekt umsetzten wollten, mussten wir uns erst einmal etwas eigenes ausdenken. Relativ schnell kamen wir auf die Ideen ein Parkhaus zu bauen, dessen Schranke nur so lange aufgeht, wie Parkplätze frei sind. Ein großer Vorteil daran war, dass wir das große Projekt aus mehreren kleineren aufbauen konnten. So ist es möglich, auf funktionierenden Zwischenschritten aufzubauen. Wenn ein kleinerer Schritt nicht funktioniert, ist nicht gleich das ganze Projekt gescheitert. Dieses Prinzip war die Grundlage unserer gesamten Arbeit.
@@ -78,8 +80,13 @@ Hier sieht man unsere Hardware vor dem Einbau in das Parkhaus.
 4. Servo: An dieser Stelle wird ein Servo angeschlossen (Servo ist noch nicht verfügbar). Der Servo öffnet und schließt die Schranke. Vom Servo gehen drei Kabel ab: Das rote Kabel geht an die Plus-Leiste vom Breadboard und versorgt so den Servo mit Strom. Das braune Kabel schließt den Stromkreis, indem es zur Minus-Leiste des Breadboards führt. Das gelbe Kabel sorgt für die Datenversorgung des Servos, indem es zu einem digitalen Pin am Mikrocontroller führt. So weiß der Servo, wann er die Schranke öffnen und schließen soll.
 
 5. Bewegungssensor: Er registriert Bewegungen und sendet daraufhin ein Signal. In unserem Fall sendet er auf Bewegung ein Signal an den Servo, sich zu öffnen.
+Er hat drei Anschlüsse: Zum einen die beiden Anschlüsse "5V" und "GND" (ground) für die Stromversorgung, die bei uns also zum Breadboard führen. Der dritte Anschluss ist ein OUTPUT, durch den der Bewegungssensor ein Signal sendet, wenn er eine Bewegung registriert. Das entsprechende Kabel läuft also zum im Sketch zugeorneten Pin am Mikrocontroller.
 
-### Unsere Software
+6. Der Ultraschallsensor: Er misst Entfernungen zu Objekten auf Grundlage von ausgesendeten Schallwellen und der Schallgeschwindigkeit (s. Unsere Software). Der Ultraschallsensor hat vier Anschlüsse: Zum einen die gleichen zwei wie der Bewegungssensor zur Stromversorgung. Dann hat er allerdings noch einen trigPin (Trigger Pin), durch den der Sensor vom Mikrocontroller das Signal bekommt, eine Ultraschallwelle zu senden. Der letzte Anschluss ist ein Echo Pin, durch den der Sensor ein Signal zum Mikrocontroller zurücksendet, sobald die reflektierte Schallwelle wieder empfangen wurde. Der Mikrocontroller berechnet anschließend die Entferung zum Objekt (s. Unsere Software).
+
+7. Die LEDs: Sie haben jeweils ein Kabel zu einem Pin am Mikrocontroller und ein Kabel zur Minus-Leiste am Breadboard, um den Stromkreis zu schließen. Kriegen sie ein "HIGH-Signal" vom Mikrocontroller, leuchten sie. 
+
+### <a name="7"></a>Unsere Software
 
 Wie bei [Der Sketch](#3) beschrieben, braucht ein funktionsfähiger Sketch ein Void Setup und ein Void Loop. Diese Bestandteile werden wir nun beschreiben und erklären. Dazu gehen wir chronologisch den Sketch durch.
 
