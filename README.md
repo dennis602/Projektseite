@@ -112,7 +112,7 @@ Wie der Bewegungsmelder funktioniert haben wir uns mit auf der folgenden Webside
 
 ![Loop if(distance>5) - Schranke geschlossen](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Loop%20if(distance%20%C3%BCber%205)%20Schranke%20zu.PNG?raw=true)
 
-Mit diesem "else" wird bestimmt, was passieren soll, wenn keine Bewegung wahrgenommen wird, also sozusagen bei "Bewegungsstatus = LOW". Dann soll nämlich nichts passieren, also bleibt der Servo bei 0 Grad. Der Serial Print meldet den Status "Schranke unten" und die LEDs leuchten weiter wie bisher. 
+Mit diesem "else" wird anschließend bestimmt, was passieren soll, wenn keine Bewegung wahrgenommen wird, also sozusagen bei "Bewegungsstatus = LOW". Dann soll nämlich nichts passieren, also bleibt der Servo bei 0 Grad. Der Serial Print meldet den Status "Schranke unten" und die LEDs leuchten weiter wie bisher. 
 
 
 ### Kritik/Aussicht
