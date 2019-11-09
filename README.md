@@ -108,13 +108,11 @@ Somit ist die Grundlage geschaffen, dass bei unterschiedlichen Entfernungsmessun
 Es geht los mit if(distance>5), also damit, was passieren soll, wenn die Entfernung mehr als 5 cm beträgt. Zuerst einmal ist mit digitalWrite( ... ); festgelegt, welche LED leuchten soll. Das ist bei uns die grüne, da der Parkplatz schließlich frei ist. Also ist der Pin 12 HIGH und Pin 13 LOW. 
 
 Nun wird der Bewegungsstatus ausgelesen. Dann haben wir eine weitere if-Bedingung eingebaut, da es jetzt ja darauf ankommt, ob der Bewegungmelder eine Bewegung wahrnimmt oder nicht. Falls ja, also Bewegungsstatus = High, soll die Schranke sich öffnen, also bewegt sich der Servo durch den Befehl "servoblau.write(90)" um 90 Grad. Mit dem folgenden delay(5000) wird das Programm für 5 Sekunden pausiert, während die Schranke oben ist, damit keine anderen Signale (vom Ultraschallsensor zum Beispiel) die offene Schranke beeiflussen können (s. Protokoll vom 05. November). Die LEDs leuchten weiter wie bisher. Zudem haben wir hier einen Serial Print eingebaut, der jetzt den Status "Schranke oben" im Serial Monitor anzeigen soll. 
-Wie der Bewegungsmelder funktioniert haben wir uns mit auf der folgenden Webside beigebracht:
-
-https://funduino.de/nr-8-bewegungsmelder
+Wie der Bewegungsmelder funktioniert haben wir uns mit auf der folgenden Webside beigebracht: https://funduino.de/nr-8-bewegungsmelder
 
 ![Loop if(distance>5) - Schranke geschlossen](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Loop%20if(distance%20%C3%BCber%205)%20Schranke%20zu.PNG?raw=true)
 
-Mit dem folgenden "else" wird bestimmt, was passieren soll, wenn keine Bewegung wahrgenommen wird, also sozusagen "Bewegungsstatus = LOW". Dann soll nämlich nichts passieren, also bleibt der Servo bei 0 Grad. Der Serial Print meldet den Status "Schranke unten" und die LEDs leuchten weiter wie bisher. 
+Mit diesem "else" wird bestimmt, was passieren soll, wenn keine Bewegung wahrgenommen wird, also sozusagen bei "Bewegungsstatus = LOW". Dann soll nämlich nichts passieren, also bleibt der Servo bei 0 Grad. Der Serial Print meldet den Status "Schranke unten" und die LEDs leuchten weiter wie bisher. 
 
 
 ### Kritik/Aussicht
