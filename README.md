@@ -108,6 +108,9 @@ Somit ist die Grundlage geschaffen, dass bei unterschiedlichen Entfernungsmessun
 Es geht los mit if(distance>5), also damit, was passieren soll, wenn die Entfernung mehr als 5 cm beträgt. Zuerst einmal ist mit digitalWrite( ... ); festgelegt, welche LED leuchten soll. Das ist bei uns die grüne, da der Parkplatz schließlich frei ist. Also ist der Pin 12 HIGH und Pin 13 LOW. 
 
 Nun wird der Bewegungsstatus ausgelesen. Dann haben wir eine weitere if-Bedingung eingebaut, da es jetzt ja darauf ankommt, ob der Bewegungmelder eine Bewegung wahrnimmt oder nicht. Falls ja, also Bewegungsstatus = High, soll die Schranke sich öffnen, also bewegt sich der Servo durch den Befehl "servoblau.write(90)" um 90 Grad. Mit dem folgenden delay(5000) wird das Programm für 5 Sekunden pausiert, während die Schranke oben ist, damit keine anderen Signale (vom Ultraschallsensor zum Beispiel) die offene Schranke beeiflussen können (s. Protokoll vom 05. November). Die LEDs leuchten weiter wie bisher. Zudem haben wir hier einen Serial Print eingebaut, der jetzt den Status "Schranke oben" im Serial Monitor anzeigen soll. 
+Wie der Bewegungsmelder funktioniert haben wir uns mit auf der folgenden Webside beigebracht:
+
+https://funduino.de/nr-8-bewegungsmelder
 
 ![Loop if(distance>5) - Schranke geschlossen](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Loop%20if(distance%20%C3%BCber%205)%20Schranke%20zu.PNG?raw=true)
 
@@ -119,6 +122,8 @@ Mit dem folgenden "else" wird bestimmt, was passieren soll, wenn keine Bewegung 
 Um ein "richtiges" Parkhaus zu bauen, müsste man natürlich noch weitere Parkplätze hinzufügen. Das würde heißen, dass wir noch mehr Ultraschallsensoren bräuchten und den Sketch folgendermaßen verändern: Der Servo dürfte sich erst dann nicht mehr bewegen, wenn wirklich alle Ultraschallsensoren eine Entfernung von unter 3 cm messen. 
 
 Außerdem könnte man den Bewegungsmelder auch durch einen Ultraschallsensor ersetzten, um eine präzisere Öffnung der Schranke zu ermöglichen. Der Bewegungssensor ist relativ sensibel was Bewegungen angeht, sodass es leicht passiert, dass sich die Schranke ungewollt öffnet. Das könnte man mit einem Ultraschallsensor möglicherweise verhindern.
+
+Wir freuen uns aber sehr, dass wir trotz nicht vorhandener Vorkenntnisse ein richtiges und funktionsfähiges Projekt auf die Beine gestellt und unser Ziel von Anfang an verfolgt und erreicht haben.
 
 ## Quellen
 https://asset.conrad.com/media10/isa/160267/c1/-/de/616724_GB_00_FB/set-arduino-uno-platine-usb-2-0-anschlusskabel-steckplatine-616724.jpg
