@@ -92,10 +92,13 @@ Wie bei [Der Sketch](#3) beschrieben, braucht ein funktionsfähiger Sketch ein V
 
 ## Unser Void Setup
 
-Wie bereits beschrieben werden im Void Setup alle Ausgangsbedingungen festgelegt. In unserem Sketch sieht das wie folgt aus:
+Noch vor dem Void Setup werden die grundsätzlichen Bedingungen definiert. Zum Beispiel welche Pins werden von welchen Geräten benutzt. Im Void Setup selbst wird dann  beispielsweise definiert, welcher dieser Pins als Eingang und welcher als Ausgang fungiert. In unserem Sketch sieht das wie folgt aus:
 
 ![Unser Void Setup-Bild](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Parkhaus%201.PNG?raw=true)
 
+Noch vor dem eigentlichen Beginn des Setup definieren wir einige Dinge, die später im Sketch eine Wichtige Rolle spielen.
+Ganz oben inkludieren wir eine Bibliothek für Servos. Das brauchen wir, damit das Programm und der Mikrocontroller nachher wissen, wie sie mit unseren Befehlen, die den Servos betreffen, umgehen sollen.
+Die beiden folgenden Befehle sind für den Ultraschallsensor. Trigpin und Echopin sind Ein- Und Ausgänge für die Signale des Ultraschallsensors. Vom Ultraschallsensor kommen also zwei Kabel in Pin 9 und Pin 10 des Mikrocontrollers. Wie genau Trigpin und Echopin arbeiten wird im Void Loop erklärt
 
 
 ## Unser Void Loop 
