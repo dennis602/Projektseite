@@ -136,7 +136,15 @@ Wie der Bewegungsmelder funktioniert haben wir uns mit auf der folgenden Webside
 Mit diesem "else" wird anschließend bestimmt, was passieren soll, wenn keine Bewegung wahrgenommen wird, also sozusagen bei "Bewegungsstatus = LOW". Dann soll nämlich nichts passieren, also bleibt der Servo bei 0 Grad. Der Serial Print meldet den Status "Schranke unten" und die LEDs leuchten weiter wie bisher. 
 
 
+
+
 ![Loop leztes else](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Parkhaus%203.PNG?raw=true)
+
+Diese letzte "else" beziieht sich auf die erste "if-Bedingung" die wir begonnen haben. Diese besagt wen die Distanz größer als 5 cm ist, dann darf der Rest funktionieren. Dieses letzte else sorgt also für den Fall, wenn der Parkplatz wirklich besetzt ist. Dann soll nämlich der Bewegungsmelder gar nicht erst reagieren und ein Signal an den Servo schicken. Dieser letzte Abschnitt ist also der Schlüssel für undere gesamte Parkhausidee.
+Was passiert im Sketch, wenn der Ultraschallsensor eine Entfernung von unter 5 cm misst? Ganz einfach, der Servo bewegt sich nicht. Er bleibt unten auf null. Damit wird zwar der Bewegungsmelder nicht deakriviert, aber der Servo bleibt trotzdem unten. Diese Lösung ist leider wenig elegant und hat in der Entwicklung einige Probleme mit sich gebracht, aber am Ende hat alles funktioniert. Darunter wird nur noch der Status für den Serial Print definiert, der dann "Parkplatz besetzt" anzeigt. Außerdem noch undere beiden LEDs, die dann von Grün auf Rot wechseln, weil ja der Parkplatz besetzt ist. LED 13 wechselt also von Low auf High und LED 12 von High auf Low.
+
+Damit ist unser gesamtes Void Loop und der gesamte Sketch zuende. Alle funktioniert grundsätzlich wie wir es wollten und wir haben unser Ziel erreicht.
+
 
 
 
