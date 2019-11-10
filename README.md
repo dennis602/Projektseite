@@ -153,7 +153,8 @@ Damit ist unser gesamtes Void Loop und der gesamte Sketch zuende. Alle funktioni
 
 ### <a name="8"></a>Schlusswort
 
-
+Schnell haben wir beide gemerkt, dass die grundsätzliche Wahl eines Arduinos gut für uns war. Sehr Anfängerfreundlich und praktisch orientiert schien es uns eine gute Grundlage für unser Projekt. Doch dieses mussten wir erstmal finden und das war gar nicht so einfach. Es gibt unzählige komplett fertig durchgeführte Projekte im Internet und wir wollten nicht einfach irgendetwas nachmachen. Eine eigene Idee musste her. Nach intensiver Ideensuche kamen wir dann auf das Parkhaus. Einge Elemente gab es so schon, andere haben wir abgeändert, aber grundsätzlich konnten wir aus vorhandenen Basics ein neues Projekt kreieren. Und das ist uns sehr gut gelungen. Rechtzeitig konnten wir alles, was wir uns vorgenommen hatten, in unser Projekt einbringen. Auch die Arbeit grundsätzlich lief sehr gut ab. In den Stunden haben wir immer zusammengearbeitet. So konnten wir beide immer alles verstehen. Nachteil dieser Arbeitsweise ist der hohe Zeitaufwand und damit eine niedriegere Effizienz. Aber bei, nicht selten, auftretenden Problemen konnten 4 statt 2 Augen nach Lösungen suchen. Und das hat für uns überwiegt. Durch unsere grundsätzliche Arbeitsweise hatten wir immer wieder sehr motivierende Erfolgsmomente. Das machte die gesamte Arbeit viel lockerer und angenehmer. iel häufiger sind wir mit einem Erfolg als mit einer Niederlage aus den Stunden gegangen, weil wir wieder etwas neues gelernt hatten. Das war sehr beflühelnd und hat unsere Arbeit vorangetrieben.
+Wir konnten während des Projektes also beide sehr viel neues lernen, uns mit Problemen selbst befassen und so den Informatikunterricht zu etwas persönlichem machen. Obendrein ist unser Projekt fertig geworden und wir sind beide Stolz darauf.
 
 
 ### <a name="9"></a>Kritik/Aussicht
