@@ -18,7 +18,7 @@
 
 ### <a name="1"></a>Vorwort
 
-Vor dem Informatikunterricht hatten wir beide keine Vorkenntnisse. Deshalb waren wir gespannt was auf uns zukommt. Als es dann darum ging, eine Projektidee zu finden und wir uns einen Überblick über alle Möglichkeiten verschafft hatten, entschieden wir uns für ein praktisches Projekt. Das Programmieren an etwas Praktischem zu erlernen erschien uns sehr sinnvoll. Somit kam für uns der sehr anfängerfreundliche Arduino in Frage. Da es im Internet sehr viele fertige Projekte inklusive Anleitungen gibt, wir aber ein eigenständiges und neues Projekt umsetzten wollten, mussten wir uns erst einmal etwas eigenes ausdenken. Relativ schnell kamen wir auf die Ideen ein Parkhaus zu bauen, dessen Schranke nur so lange aufgeht, wie Parkplätze frei sind. Ein großer Vorteil daran war, dass wir das große Projekt aus mehreren kleineren aufbauen konnten. So ist es möglich, auf funktionierenden Zwischenschritten aufzubauen. Wenn ein kleinerer Schritt nicht funktioniert, ist nicht gleich das ganze Projekt gescheitert. Dieses Prinzip war die Grundlage unserer gesamten Arbeit.
+Vor dem Informatikunterricht hatten wir beide keine Vorkenntnisse. Deshalb waren wir gespannt was auf uns zukommt. Als es dann darum ging, eine Projektidee zu finden und wir uns einen Überblick über alle Möglichkeiten verschafft hatten, entschieden wir uns für ein praktisches Projekt. Das Programmieren an etwas Praktischem zu erlernen erschien uns sehr sinnvoll. Somit kam für uns der sehr anfängerfreundliche Arduino in Frage. Da es im Internet sehr viele fertige Projekte inklusive Anleitungen gibt, wir aber ein eigenständiges und neues Projekt umsetzten wollten, mussten wir uns erst einmal etwas eigenes ausdenken. Relativ schnell kamen wir auf die Idee ein Parkhaus zu bauen, dessen Schranke nur so lange aufgeht, wie Parkplätze frei sind. Ein großer Vorteil daran war, dass wir das große Projekt aus mehreren kleineren aufbauen konnten. So ist es möglich, auf funktionierenden Zwischenschritten aufzubauen. Wenn ein kleinerer Schritt nicht funktioniert, ist nicht gleich das ganze Projekt gescheitert. Dieses Prinzip war die Grundlage unserer gesamten Arbeit.
 
 ### <a name="2"></a>Der Arduino
 
@@ -92,6 +92,11 @@ Wie bei [Der Sketch](#3) beschrieben, braucht ein funktionsfähiger Sketch ein V
 
 ## Unser Void Setup
 
+Wie bereits beschrieben werden im Void Setup alle Ausgangsbedingungen festgelegt. In unserem Sketch sieht das wie folgt aus:
+
+![Unser Void Setup-Bild](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Parkhaus%201.PNG?raw=true)
+
+
 
 ## Unser Void Loop 
 
@@ -117,7 +122,7 @@ Mit diesem "else" wird anschließend bestimmt, was passieren soll, wenn keine Be
 
 ### Kritik/Aussicht
 
-Um ein "richtiges" Parkhaus zu bauen, müsste man natürlich noch weitere Parkplätze hinzufügen. Das würde heißen, dass wir noch mehr Ultraschallsensoren bräuchten und den Sketch folgendermaßen verändern: Der Servo dürfte sich erst dann nicht mehr bewegen, wenn wirklich alle Ultraschallsensoren eine Entfernung von unter 3 cm messen. 
+Um ein "richtiges" Parkhaus zu bauen, müsste man natürlich noch weitere Parkplätze hinzufügen. Das würde heißen, dass wir noch mehr Ultraschallsensoren bräuchten und den Sketch folgendermaßen verändern: Der Servo dürfte sich erst dann nicht mehr bewegen, wenn wirklich alle Ultraschallsensoren eine Entfernung von unter 3 cm messen. Also bräuchte man für jeden Parkplatz einen Ultraschallsensor und erst wenn, unabhängig von einer Reihenfolge, alle Parlplätze besetzt sind, dürfte sich die Schranke nicht mehr öffnen. Hierzu müsste man im Sketch alle Signale aller Ultraschallsensoren zusammenführen und auslesen. Hierzu fehlte uns aber definitiv die Zeit.
 
 Außerdem könnte man den Bewegungsmelder auch durch einen Ultraschallsensor ersetzten, um eine präzisere Öffnung der Schranke zu ermöglichen. Der Bewegungssensor ist relativ sensibel was Bewegungen angeht, sodass es leicht passiert, dass sich die Schranke ungewollt öffnet. Das könnte man mit einem Ultraschallsensor möglicherweise verhindern.
 
