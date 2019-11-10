@@ -16,6 +16,12 @@
 
 [Unsere Software](#7)
 
+[Schlusswort](#8)
+
+[Kritik/Aussicht](#9)
+
+[Quellen](#10)
+
 ### <a name="1"></a>Vorwort
 
 Vor dem Informatikunterricht hatten wir beide keine Vorkenntnisse. Deshalb waren wir gespannt was auf uns zukommt. Als es dann darum ging, eine Projektidee zu finden und wir uns einen Überblick über alle Möglichkeiten verschafft hatten, entschieden wir uns für ein praktisches Projekt. Das Programmieren an etwas Praktischem zu erlernen erschien uns sehr sinnvoll. Somit kam für uns der sehr anfängerfreundliche Arduino in Frage. Da es im Internet sehr viele fertige Projekte inklusive Anleitungen gibt, wir aber ein eigenständiges und neues Projekt umsetzten wollten, mussten wir uns erst einmal etwas eigenes ausdenken. Relativ schnell kamen wir auf die Idee ein Parkhaus zu bauen, dessen Schranke nur so lange aufgeht, wie Parkplätze frei sind. Ein großer Vorteil daran war, dass wir das große Projekt aus mehreren kleineren aufbauen konnten. So ist es möglich, auf funktionierenden Zwischenschritten aufzubauen. Wenn ein kleinerer Schritt nicht funktioniert, ist nicht gleich das ganze Projekt gescheitert. Dieses Prinzip war die Grundlage unserer gesamten Arbeit.
@@ -145,10 +151,12 @@ Was passiert im Sketch, wenn der Ultraschallsensor eine Entfernung von unter 5 c
 
 Damit ist unser gesamtes Void Loop und der gesamte Sketch zuende. Alle funktioniert grundsätzlich wie wir es wollten und wir haben unser Ziel erreicht.
 
+### <a name="8"></a>Schlusswort
 
 
 
-### Kritik/Aussicht
+
+### <a name="9"></a>Kritik/Aussicht
 
 Um ein "richtiges" Parkhaus zu bauen, müsste man natürlich noch weitere Parkplätze hinzufügen. Das würde heißen, dass wir noch mehr Ultraschallsensoren bräuchten und den Sketch folgendermaßen verändern: Der Servo dürfte sich erst dann nicht mehr bewegen, wenn wirklich alle Ultraschallsensoren eine Entfernung von unter 3 cm messen. Also bräuchte man für jeden Parkplatz einen Ultraschallsensor und erst wenn, unabhängig von einer Reihenfolge, alle Parlplätze besetzt sind, dürfte sich die Schranke nicht mehr öffnen. Hierzu müsste man im Sketch alle Signale aller Ultraschallsensoren zusammenführen und auslesen. Hierzu fehlte uns aber definitiv die Zeit.
 
@@ -156,6 +164,6 @@ Außerdem könnte man den Bewegungsmelder auch durch einen Ultraschallsensor ers
 
 Wir freuen uns aber sehr, dass wir trotz nicht vorhandener Vorkenntnisse ein richtiges und funktionsfähiges Projekt auf die Beine gestellt und unser Ziel von Anfang an verfolgt und erreicht haben.
 
-## Quellen
+## <a name="10"></a>Quellen
 https://asset.conrad.com/media10/isa/160267/c1/-/de/616724_GB_00_FB/set-arduino-uno-platine-usb-2-0-anschlusskabel-steckplatine-616724.jpg
 
