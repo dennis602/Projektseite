@@ -136,6 +136,10 @@ Wie der Bewegungsmelder funktioniert haben wir uns mit auf der folgenden Webside
 Mit diesem "else" wird anschließend bestimmt, was passieren soll, wenn keine Bewegung wahrgenommen wird, also sozusagen bei "Bewegungsstatus = LOW". Dann soll nämlich nichts passieren, also bleibt der Servo bei 0 Grad. Der Serial Print meldet den Status "Schranke unten" und die LEDs leuchten weiter wie bisher. 
 
 
+![Loop leztes else](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Parkhaus%203.PNG?raw=true)
+
+
+
 ### Kritik/Aussicht
 
 Um ein "richtiges" Parkhaus zu bauen, müsste man natürlich noch weitere Parkplätze hinzufügen. Das würde heißen, dass wir noch mehr Ultraschallsensoren bräuchten und den Sketch folgendermaßen verändern: Der Servo dürfte sich erst dann nicht mehr bewegen, wenn wirklich alle Ultraschallsensoren eine Entfernung von unter 3 cm messen. Also bräuchte man für jeden Parkplatz einen Ultraschallsensor und erst wenn, unabhängig von einer Reihenfolge, alle Parlplätze besetzt sind, dürfte sich die Schranke nicht mehr öffnen. Hierzu müsste man im Sketch alle Signale aller Ultraschallsensoren zusammenführen und auslesen. Hierzu fehlte uns aber definitiv die Zeit.
