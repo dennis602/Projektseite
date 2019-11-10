@@ -27,12 +27,12 @@ Ein Arduino ist eine Physical-Computung-Plattform, die aus Soft- und Hardware zu
 
 ### <a name="3"></a>Der Sketch
 
-Die zwei Bestandteile eines Sketches sind das "void setup()" und das "void loop()". Im Setup werden alle Ausgangsbedingungen definiert, wie zum Beispiel, welche Geräte benutzt werden und an welchen Pins auf dem Mikrocontroller diese angeschlossen sind. 
+Die zwei Bestandteile eines Sketches sind das "void setup()" und das "void loop()". Im Setup werden alle Ausgangsbedingungen definiert, wie zum Beispiel, welche Geräte benutzt werden und an welchen Pins auf dem Mikrocontroller diese angeschlossen sind. Im Void Loop steht dann die genaue "Arbeitsanweisung". Also was genau jedes an die verschiedenen Pins angeschlossene Geröt zu tun hat. Während das Setup also im Vorwege einmal die Ausgangsbedingungen definiert, widerholt sich der Loop die ganze Zeit. Ist er unten angekommen fängt er oben wieder an. 
 Beispiel: 
 
 ![Sketch Beispiel](https://github.com/dennis602/Stundenprotokoll/blob/master/1.%20Sketch.PNG)
 
-Dies war unser erster Sketch, der eine LED am Pin 13 zum blinken bringt. Das "delay(...)" bestimmt die Zeit, die die LED "HIGH" (also an) oder "LOW" (also aus) ist.
+Dies war unser erster Sketch, der eine LED am Pin 13 zum blinken bringt. Das "delay(...)" bestimmt die Zeit, die die LED "HIGH" (also an) oder "LOW" (also aus) ist. Im Loop wiederholt sich also die ganze Zeit dieses Blinken, obwohl wir es nur einmal reingeschrieben hatten. Das liegt daran, dass sich der Loop grundsätzlich immer wiederholt.
  
 ### <a name="4"></a>Projektentwicklung
 
@@ -99,6 +99,7 @@ Noch vor dem Void Setup werden die grundsätzlichen Bedingungen definiert. Zum B
 Noch vor dem eigentlichen Beginn des Setup definieren wir einige Dinge, die später im Sketch eine Wichtige Rolle spielen.
 Ganz oben inkludieren wir eine Bibliothek für Servos. Das brauchen wir, damit das Programm und der Mikrocontroller nachher wissen, wie sie mit unseren Befehlen, die den Servos betreffen, umgehen sollen.
 Die beiden folgenden Befehle sind für den Ultraschallsensor. Trigpin und Echopin sind Ein- Und Ausgänge für die Signale des Ultraschallsensors. Vom Ultraschallsensor kommen also zwei Kabel in Pin 9 und Pin 10 des Mikrocontrollers. Wie genau Trigpin und Echopin arbeiten wird im Void Loop erklärt
+Im Befel danach haben wir dem Servo den Namen "Servoblau" gegeben. Im Loop muss das Programm wissen welcher Servo gemeint ist, falls man mehrere benutzt. In unserem Fall spielt diese Benennung keine große Rolle, da wir nur einen Servo benutzen. Trotzdem muss dieser benannt sein.
 
 
 ## Unser Void Loop 
