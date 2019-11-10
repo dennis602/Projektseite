@@ -102,10 +102,15 @@ Die beiden folgenden Befehle sind für den Ultraschallsensor. Trigpin und Echopi
 Im Befel danach haben wir dem Servo den Namen "Servoblau" gegeben. Im Loop muss das Programm wissen welcher Servo gemeint ist, falls man mehrere benutzt. In unserem Fall spielt diese Benennung keine große Rolle, da wir nur einen Servo benutzen. Trotzdem muss dieser benannt sein.
 
 Die nachfolgenden drei Befehle geben Pins und Ausgangslagen für den Servo und den Bewegungsmelder vor.  Der Servo wird mit Pin 5 auf dem Mikrocontroller verbunden, der Bewegungsmelder mit Pin 7. Außerdem wird der grundsätzliche Status des Bewegungsmelders auf 0 gesetzt. wenn er also keine Bewegung wahrnimmt, dann soll auch nichts passieren. 
+
 Jetzt beginnt das eigentliche Setup:
+
 Zuerst werden für den Ultraschallsensor der Trigpin als Ausgang (Output) und der Echopin als Eingang (Input) festgelegt. Dies hängt mit der grundsätzlichen funktionsweise Ultraschallsensoren ab, die später noch erklärt wird.
+
 Danach werden die Pins 12 und 13 als Ausgänge auf dem Mikrocontroller festgelegt. Mit den Pins verbunden sind unsere Rote und Grüne LED, die Einfach  Ausgangspins benötigen, von denen sie Signale erhalten.
-Als nächsts geht es um den Servo, der Pin 5 benutzt. Dieser soll sich ja nur auf reagieren des Bewegungsmelders drehen. Wenn also der Pinmode "Bewegung", den wir wiezer oben mit Pin 7 belegt hatten, den Bewegungsstatus ändert sendet er einen Input an den Servo, also ein Signal dass er sich drehen soll. Wann sich der Servo wie weit dreht wird alles im Loop beschrieben, aber hier wird grundsätzlich gesagt, dass der Servo Signale von dem Bewegungsmelder bekommt.
+
+Als nächsts geht es um den Servo, der Pin 5 benutzt. Dieser soll sich ja nur auf reagieren des Bewegungsmelders drehen. Wenn also der Pinmode "Bewegung", den wir weiter oben mit Pin 7 belegt hatten, den Bewegungsstatus ändert sendet er einen Input an den Servo, also ein Signal dass er sich drehen soll. Wann sich der Servo wie weit dreht wird alles im Loop beschrieben, aber hier wird grundsätzlich gesagt, dass der Servo Signale von dem Bewegungsmelder bekommt.
+
 Ganz unten haben wir mit dem Serial.beginn einen Serialprint gestartet. Dieser ist grundsätlich nicht nötig, damit der Sketch funktioniert. Er ist fafür da, um einen Überblick zu erhalten, an welcher Stelle sich das Void Loop gerade befindet. Der Serialprint wird also im Void Setup eigeführt, hilft uns aber, einen Überblick über das Void Loop zu behalten. Dazu sendet er Signale auf einen Serila monitpr, die wir dann auf dem Bildschirm lesen können. Im Loop haben wir dazu verschiedene Bezeichnungen eingeführt, das wird aber später noch genauer erklärt.
 Jett sind alle Rahmenbedingungen definiert und der eigentliche Sketch kann beginnen.
 
