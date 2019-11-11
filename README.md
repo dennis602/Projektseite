@@ -68,6 +68,8 @@ https://www.mymakerstuff.de/2016/05/24/arduino-tutorial-der-ultraschallsensor/
 
 Wir haben nun also ein Parkhaus entwickelt, das auf Bewegung seine Schranke öffnet. Ist jedoch der Parkplatz besetzt, öffnet sich die Schranke nicht. Ob sie sich bei Bewegung öffnen wird oder nicht, erkennt man an einer rot bzw. grün leuchtenden LED.
 
+Video zur Verdeutlichung: https://youtu.be/xYs6pj2Sc_M
+
 
 ### <a name="6"></a>Unsere Hardware
 
