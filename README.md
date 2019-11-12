@@ -124,7 +124,7 @@ Hier sind einige Bilder des "fertigen" Parkhauses aus verschiedenen Perspektiven
 
 Wie bei [Der Sketch](#3) beschrieben, braucht ein funktionsfähiger Sketch ein Void Setup und ein Void Loop. Diese Bestandteile werden wir nun beschreiben und erklären. Dazu gehen wir chronologisch den Sketch durch.
 
-### Unser Void Setup
+#### Unser Void Setup
 
 Noch vor dem Void Setup werden die grundsätzlichen Bedingungen definiert. Zum Beispiel welche Pins werden von welchen Geräten benutzt. Im Void Setup selbst wird dann  beispielsweise definiert, welcher dieser Pins als Eingang und welcher als Ausgang fungiert. In unserem Sketch sieht das wie folgt aus:
 
@@ -148,7 +148,7 @@ Als nächsts geht es um den Servo, der Pin 5 benutzt. Dieser soll sich ja nur au
 Ganz unten haben wir mit dem Serial.beginn einen Serialprint gestartet. Dieser ist grundsätlich nicht nötig, damit der Sketch funktioniert. Er ist fafür da, um einen Überblick zu erhalten, an welcher Stelle sich das Void Loop gerade befindet. Der Serialprint wird also im Void Setup eigeführt, hilft uns aber, einen Überblick über das Void Loop zu behalten. Dazu sendet er Signale auf einen Serila monitpr, die wir dann auf dem Bildschirm lesen können. Im Loop haben wir dazu verschiedene Bezeichnungen eingeführt, das wird aber später noch genauer erklärt.
 Jett sind alle Rahmenbedingungen definiert und der eigentliche Sketch kann beginnen.
 
-## Unser Void Loop 
+#### Unser Void Loop 
 
 ![Unser Void Loop - Ultraschallsensor](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Loop%20Ultraschallsensor.PNG)
 
