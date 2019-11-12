@@ -94,6 +94,24 @@ Er hat drei Anschlüsse: Zum einen die beiden Anschlüsse "5V" und "GND" (ground
 
 7. Die LEDs: Sie haben jeweils ein Kabel zu einem Pin am Mikrocontroller und ein Kabel zur Minus-Leiste am Breadboard, um den Stromkreis zu schließen. Kriegen sie ein "HIGH-Signal" vom Mikrocontroller, leuchten sie. 
 
+#### Bilder vom Parkhaus
+
+Hier sind einige Bilder des "fertigen" Parkhauses aus verschiedenen Perspektiven zu sehen, nachdem wir die gesamte Hardware eingebaut haben.
+
+![Parkhaus Bild 1](https://github.com/dennis602/Projektseite/blob/master/Parkhaus%20Bild%201.PNG)
+
+
+![Parkhaus Bild 2](https://github.com/dennis602/Projektseite/blob/master/Parkhaus%20Bild%202.PNG?raw=true)
+
+
+![Parkhaus Bild 3](https://github.com/dennis602/Projektseite/blob/master/Parkhaus%20Bild%203.PNG?raw=true)
+
+
+![Parkhaus Bild 4](https://github.com/dennis602/Projektseite/blob/master/Parkhaus%20Bild%204.PNG?raw=true)
+
+
+
+
 ### <a name="7"></a>Unsere Software
 
 Wie bei [Der Sketch](#3) beschrieben, braucht ein funktionsfähiger Sketch ein Void Setup und ein Void Loop. Diese Bestandteile werden wir nun beschreiben und erklären. Dazu gehen wir chronologisch den Sketch durch.
