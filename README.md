@@ -124,7 +124,7 @@ Hier sind einige Bilder des "fertigen" Parkhauses aus verschiedenen Perspektiven
 
 Wie bei [Der Sketch](#3) beschrieben, braucht ein funktionsfähiger Sketch ein Void Setup und ein Void Loop. Diese Bestandteile werden wir nun beschreiben und erklären. Dazu gehen wir chronologisch den Sketch durch.
 
-## Unser Void Setup
+### Unser Void Setup
 
 Noch vor dem Void Setup werden die grundsätzlichen Bedingungen definiert. Zum Beispiel welche Pins werden von welchen Geräten benutzt. Im Void Setup selbst wird dann  beispielsweise definiert, welcher dieser Pins als Eingang und welcher als Ausgang fungiert. In unserem Sketch sieht das wie folgt aus:
 
