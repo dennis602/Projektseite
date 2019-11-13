@@ -129,7 +129,7 @@ https://funduino.de/nr-8-bewegungsmelder
 
 Jetzt beginnt das eigentliche Setup:
 
-Zuerst werden für den Ultraschallsensor der Trigpin als Ausgang (Output) und der Echopin als Eingang (Input) festgelegt. Dies hängt mit der grundsätzlichen funktionsweise Ultraschallsensoren ab, die später noch erklärt wird.
+Zuerst werden für den Ultraschallsensor der Trigpin als Ausgang (Output) und der Echopin als Eingang (Input) festgelegt. Dies liegt an der grundsätzlichen Funktionsweise von Ultraschallsensoren, die später noch erklärt wird.
 
 Danach werden die Pins 12 und 13 als Ausgänge auf dem Mikrocontroller festgelegt. Mit den Pins verbunden sind unsere rote und grüne LED, die einfach Ausgangspins benötigen, von denen sie zum entsprechenden Zeitpunkt mit Strom versorgt werden.
 
