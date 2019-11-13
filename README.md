@@ -1,4 +1,5 @@
-# Projektseite Arduino-Parkhaus (von Peter Voss und Dennis Dibbern)
+# Projektseite Arduino-Parkhaus 
+### Von Peter Voss und Dennis Dibbern
 
 ## Inhaltsverzeichnis
 
