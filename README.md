@@ -47,22 +47,9 @@ Wir haben unser Projekt damit begonnen, im Internet grundlegende erste Schritte 
 
 Dieses Verknüpfen lief natürlich nicht problemlos ab, sodass die zentrale Herausforderung das Lösen dieser Probleme war. Mit jeder dieser Lösungen wuchs auch unser allgemeines Verständnis für das Programm Arduino. Wir haben gelernt, einzelne Abschnitte des Sketches genauer auf die Funktionalität zu untersuchen, indem wir einzelne Zeilen per "//" deaktiviert haben. Sehr geholfen hat uns auch der "Serial Print" als Möglichkeit, den aktuellen Status des ablaufenden Sketches nachzuvollziehen.
 
-Da wir die einzelnen Anleitungen der Schritte im Internet recherchiert haben (Quellen s. Protokoll und am Ende dieses Abschnitts), lag unsere Eigenleistung darin, all diese kleinen Sketche zu einem großen zu verbinden. Ziel war von Anfang an das Parkhaus und jeder Fortschritt, den wir erzielt haben, brachte uns diesem Ziel näher. Natürlich mussten wir uns auch die Benutzung der Hardware komplett beibringen. Auch das war viel Eigenleistung, da man im Internet nur Grundlagen dafür findet. Damit sind wir aber sehr schnell zurechtgekommen.
+Da wir die einzelnen Anleitungen der Schritte im Internet recherchiert haben (Quellen s. Protokoll und [Quellen](#10)), lag unsere Eigenleistung darin, all diese kleinen Sketche zu einem großen zu verbinden. Ziel war von Anfang an das Parkhaus und jeder Fortschritt, den wir erzielt haben, brachte uns diesem Ziel näher. Natürlich mussten wir uns auch die Benutzung der Hardware komplett beibringen. Auch das war viel Eigenleistung, da man im Internet nur Grundlagen dafür findet. Damit sind wir aber sehr schnell zurechtgekommen.
 
 Angefangen haben wir mit einem einfachen Sketch, um einen Servo zu bewegen. Den Sketch haben wir uns aus dem Internet kopiert und mit der dazugehörigen Hardware aus dem Unterricht haben wir alles ausprobiert. Wenn dann alles so funktioniert hat, wie wir wollten und wir auch den Sketch verstanden hatten, ging es weiter. Nun haben wir uns mit einem Bewegungsmelder auseinandergesetzt. Den einfachen Sketch haben wir kopiert, dann die Hardware zusammengebaut und ausprobiert. Sobald alles funktioniert hat und wir den Sketch verstanden hatten, haben wir diesen eigenständig mit dem Servosketch verbunden. Nachdem das funktioniert hat, konnten wir einen Servo durch Bewegung steuern. Dann haben wir uns mit Ultraschallsensoren auseinandergesetzt. Einen ursprünglichen Sketch haben wir kopiert, die vereinfachte Hardware mit LEDs zur Kontrolle zusammengebaut und alles ausprobiert. Sobald alles funktioniert hat und wir den Sketch verstanden hatte, haben wir diesen Sketch eigenständig in den Bewegungsmelder-Servo-Sketch integriert. Nun konnten wir einen Servo durch Bewegung steuern, aber nur wenn nichts den Ultraschallsensor blockiert.
-
-#### Quellen:
-
-https://funduino.de/anleitung#1Vorwort_zur_Arduino_Anleitung
-
-https://www.youtube.com/watch?v=G4ZlfsbDtQo
-
-https://funduino.de/nr-12-servo-ansteuern
-
-https://funduino.de/nr-8-bewegungsmelder
-
-https://www.mymakerstuff.de/2016/05/24/arduino-tutorial-der-ultraschallsensor/
-
 
 
 ### <a name="5"></a>Unser Projekt
@@ -200,5 +187,18 @@ Von Peter Voss und Dennis Dibbern
 Klasse 12ab
 
 ## <a name="10"></a>Quellen
+
+Quellen nur für die Projektseite (Bild):
 https://asset.conrad.com/media10/isa/160267/c1/-/de/616724_GB_00_FB/set-arduino-uno-platine-usb-2-0-anschlusskabel-steckplatine-616724.jpg
 
+Alle für das Projekt genutzen Quellen (diese wurden auch an entsprechender Stelle auf dieser Projektseite und im Protkoll verlinkt):
+
+https://funduino.de/anleitung#1Vorwort_zur_Arduino_Anleitung
+
+https://www.youtube.com/watch?v=G4ZlfsbDtQo
+
+https://funduino.de/nr-12-servo-ansteuern
+
+https://funduino.de/nr-8-bewegungsmelder
+
+https://www.mymakerstuff.de/2016/05/24/arduino-tutorial-der-ultraschallsensor/
