@@ -112,11 +112,11 @@ Hier sind einige Bilder des fertigen Parkhauses aus verschiedenen Perspektiven z
 
 Wie bei [Der Sketch](#3) beschrieben, braucht ein funktionsfähiger Sketch ein Void Setup und ein Void Loop. Diese Bestandteile werden wir nun beschreiben und erklären. Dazu gehen wir chronologisch den Sketch durch.
 
-#### Unser Void Setup
 
 Noch vor dem Void Setup werden die grundsätzlichen Bedingungen definiert. Zum Beispiel welche Pins von welchen Geräten genutzt werden. Im Void Setup selbst wird dann beispielsweise definiert, welcher dieser Pins als Eingang und welcher als Ausgang fungiert. In unserem Sketch sieht das wie folgt aus:
 
-![Unser Void Setup-Bild](https://github.com/dennis602/Projektseite/blob/master/Sketch%20Parkhaus%201.PNG?raw=true)
+![Sketch Parkhaus 1.1](https://github.com/dennis602/Projektseite-Arduino-Parkhaus/blob/master/Sketch%20Parkhaus%201.1.PNG?raw=true)
+
 
 Noch vor dem eigentlichen Beginn des Setup definieren wir also einige Dinge, die später im Sketch eine wichtige Rolle spielen.
 Ganz oben inkludieren wir eine Bibliothek für Servos. Das brauchen wir, damit das Programm und der Mikrocontroller nachher wissen, wie sie mit unseren Befehlen, die den Servo betreffen, umgehen sollen.
@@ -128,6 +128,8 @@ Die nachfolgenden drei Befehle geben Pins und Ausgangslagen für den Servo und d
 https://funduino.de/nr-8-bewegungsmelder
 
 Jetzt beginnt das eigentliche Setup:
+
+![Sketch Parkhaus 1.2](https://github.com/dennis602/Projektseite-Arduino-Parkhaus/blob/master/Sketch%20Parkhaus%201.2.PNG?raw=true)
 
 Zuerst werden für den Ultraschallsensor der Trigpin als Ausgang (Output) und der Echopin als Eingang (Input) festgelegt. Dies liegt an der grundsätzlichen Funktionsweise von Ultraschallsensoren, die später noch erklärt wird.
 
