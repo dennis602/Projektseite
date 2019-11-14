@@ -56,7 +56,12 @@ Angefangen haben wir mit einem einfachen Sketch, um einen Servo zu bewegen. Den 
 
 Wir haben nun also ein Parkhaus entwickelt, das auf Bewegung seine Schranke öffnet. Ist jedoch der Parkplatz besetzt, öffnet sich die Schranke nicht. Ob sie sich bei Bewegung öffnen wird oder nicht, erkennt man an einer rot bzw. grün leuchtenden LED.
 
-Video zur Verdeutlichung: https://youtu.be/xYs6pj2Sc_M
+Video zur Verdeutlichung:
+
+![Screenshot Video](https://github.com/dennis602/Projektseite-Arduino-Parkhaus/blob/master/Screenshot%20Video.PNG?raw=true)
+
+
+https://youtu.be/xYs6pj2Sc_M
 
 
 ### <a name="6"></a>Unsere Hardware
